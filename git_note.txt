@@ -9,4 +9,5 @@
 6. `git status` : 显示文件的状态, 如文件变更了, 该命令会显示发生变更的文件.
 7. `git diff <File>` : 显示特定文件详细变更位置和内容, 配合`status`找出发生过变化的文件进行使用
 8. `git log` : 显示提交的详细记录, 可加`--pretty=oneline`属性方便查看
-	
+9. `git reset --hard HEAD^` : 回退到上一个版本， `HEAD^^`为上上个版本， `HEAD~100`为上100个版本, 还可以指定commit id进行回退
+10. `git reflog` : 查看历史命令的记录
