@@ -1,4 +1,4 @@
-# git学习
+﻿# git学习
 ## 基本操作
 - `git init` : 将当前目录作为仓库
 - `git config --global user.name "name"`
@@ -14,6 +14,6 @@
 - `git reflog` : 查看历史命令的记录
 
 ## 运程管理
-- `git remove add origin url` : 将本地仓库与远程仓库建立连接. 配合push使用
+- `git remote add origin url` : 将本地仓库与远程仓库建立连接. 配合push使用
 - `git clone url` : 克隆远程仓库到本地仓库(建立连接)
 - `git push [-u] origin master` : 将本地仓库的内容push到远程仓库, 一般第一push时带上参数`-u`
