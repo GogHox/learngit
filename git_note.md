@@ -3,7 +3,7 @@
 - `git init` : 将当前目录作为仓库
 - `git config --global user.name "name"`
    `git config --global user.email "email"`
-	配置姓名和邮箱, `--global`代表配置所有的, 也可以只分别配置每个不同的 
+	配置姓名和邮箱, `--global`代表配置所有的, 也可以只分别配置每个不同的仓库 
 - `pwd` : 显示当前的绝对路径
 - `git add <File>` : 把文件加入到仓库中
 - `git commit -m "注释部分"` : 提交添加, 并添加注释
